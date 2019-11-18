@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ListCars from './components/ListCars';
 
 const App = () => (
   <div>
@@ -7,6 +8,7 @@ const App = () => (
     Edit this file and linked JS/CSS, changes will appear directly in your
     browser.
   </p>
+<ListCars />
 </div>
 );
 
