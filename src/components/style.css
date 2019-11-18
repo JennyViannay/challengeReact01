@@ -1,0 +1,115 @@
+.carCard {
+  box-shadow: 5px 5px 5px rgb(38, 41, 41);
+  background-color: white;
+  padding: 1em;
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.carCard img {
+  width: auto;
+  height: 190px;
+}
+
+.carCard h2,
+.carCard h4 {
+  color: grey;
+}
+
+.carCard h3 {
+  margin: auto;
+  border: solid 2px grey;
+  color: grey;
+  padding: 0.3em;
+}
+
+html {
+  background-color: grey;
+}
+
+.DeleteButton {
+  background-color: grey;
+  color: white;
+  margin: 1em auto 1em auto;
+  padding: 0.6em;
+  border: none;
+  width: 40%;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.DeleteButton:hover {
+  background-color: red;
+}
+
+.carsGlobal {
+    width:80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+   }
+   
+.title {
+    margin-top: 2em;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.RatingButton{
+    background-color:white;
+    color: grey;
+    margin: 1em auto 3em 1em;
+    padding: 0.6em;
+    border: none;
+    width:40%;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.RatingButton:hover{
+    background-color:rebeccapurple;
+    color:white;
+}
+
+.car__screenshots {
+    width: 60%;
+    height:auto;
+    margin-top:2em;
+}
+
+.input-range {
+  width: 100%;
+}
+
+.input-range__track--active {
+  background: #3f51b5;
+}
+
+.input-range__track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+
+.input-range__track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out;
+}

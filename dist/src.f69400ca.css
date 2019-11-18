@@ -1,2 +1,200 @@
+.carCard {
+  box-shadow: 5px 5px 5px rgb(38, 41, 41);
+  background-color: white;
+  padding: 1em;
+  width: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.carCard img {
+  width: auto;
+  height: 190px;
+}
+
+.carCard h2,
+.carCard h4 {
+  color: grey;
+}
+
+.carCard h3 {
+  margin: auto;
+  border: solid 2px grey;
+  color: grey;
+  padding: 0.3em;
+}
+
+html {
+  background-color: grey;
+}
+
+.DeleteButton {
+  background-color: grey;
+  color: white;
+  margin: 1em auto 1em auto;
+  padding: 0.6em;
+  border: none;
+  width: 40%;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.DeleteButton:hover {
+  background-color: red;
+}
+
+.carsGlobal {
+    width:80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+   }
+   
+.title {
+    margin-top: 2em;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.RatingButton{
+    background-color:white;
+    color: grey;
+    margin: 1em auto 3em 1em;
+    padding: 0.6em;
+    border: none;
+    width:40%;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.RatingButton:hover{
+    background-color:rebeccapurple;
+    color:white;
+}
+
+.car__screenshots {
+    width: 60%;
+    height:auto;
+    margin-top:2em;
+}
+
+.input-range {
+  width: 100%;
+}
+
+.input-range__track--active {
+  background: #3f51b5;
+}
+
+.input-range__track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+
+.input-range__track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out;
+}
+.input-range__slider {
+  appearance: none;
+  background: #3f51b5;
+  border: 1px solid #3f51b5;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1rem;
+  margin-left: -0.5rem;
+  margin-top: -0.65rem;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  width: 1rem; }
+  .input-range__slider:active {
+    transform: scale(1.3); }
+  .input-range__slider:focus {
+    box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2); }
+  .input-range--disabled .input-range__slider {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    transform: none; }
+
+.input-range__slider-container {
+  transition: left 0.3s ease-out; }
+
+.input-range__label {
+  color: #aaaaaa;
+  font-family: "Helvetica Neue", san-serif;
+  font-size: 0.8rem;
+  transform: translateZ(0);
+  white-space: nowrap; }
+
+.input-range__label--min,
+.input-range__label--max {
+  bottom: -1.4rem;
+  position: absolute; }
+
+.input-range__label--min {
+  left: 0; }
+
+.input-range__label--max {
+  right: 0; }
+
+.input-range__label--value {
+  position: absolute;
+  top: -1.8rem; }
+
+.input-range__label-container {
+  left: -50%;
+  position: relative; }
+  .input-range__label--max .input-range__label-container {
+    left: 50%; }
+
+.input-range__track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out; }
+  .input-range--disabled .input-range__track {
+    background: #eeeeee; }
+
+.input-range__track--background {
+  left: 0;
+  margin-top: -0.15rem;
+  position: absolute;
+  right: 0;
+  top: 50%; }
+
+.input-range__track--active {
+  background: #3f51b5; }
+
+.input-range {
+  height: 1rem;
+  position: relative;
+  width: 100%; }
+
+
 
 /*# sourceMappingURL=/src.f69400ca.css.map */
